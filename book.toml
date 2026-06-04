@@ -3,3 +3,6 @@
 language = "en"
 src = "src"
 title = "kurs-kokebok"
+
+[output.html]
+sidebar-header-nav = true
