@@ -154,7 +154,7 @@
 > Q: How does AWS make sure that a business can meet fluctuating demand without over-provisioning resources?
 >
 > A: By allowing businesses to provision resources that automatically scale based on demand
- 
+
 ---
 
 > Q: How does Elastic Load Balancing (ELB) improve scalability in AWS?
