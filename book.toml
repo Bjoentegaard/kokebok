@@ -2,11 +2,4 @@
 #authors = ["Øyvind Bjøntegaard"]
 language = "en"
 src = "src"
-title = "kurs-kokebok"
-
-[preprocessor.pagetoc]
-scroll_offset = 10
-
-[output.html]
-additional-css = ["theme/pagetoc.css"]
-additional-js  = ["theme/pagetoc.js"]
+title = "kokebok"

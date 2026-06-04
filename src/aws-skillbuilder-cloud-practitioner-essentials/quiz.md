@@ -1,5 +1,4 @@
-# QUIZ Module 1 - Introduction to the Cloud
-
+## QUIZ Module 1 - Introduction to the Cloud
 
 > Q: Which scenario BEST describes how the client-server model works in coffee-shop analogy?
 > 
@@ -28,7 +27,7 @@
 >
 > A: Your company is responsible for applying security patches to the OS.
 
-### ASSESMENT
+**ASSESSMENT:**
 
 > Q: A finance company is interested in migrating to the cloud and is curious about who is responsible for securing the physical infrastructure of the cloud.
 >
@@ -80,7 +79,7 @@
 
 ---
 
-# QUIZ Module 2 - Compute in the Cloud
+## QUIZ Module 2 - Compute in the Cloud
 
 
 > Q: How does EC2 compare to running servers on premises?
@@ -178,7 +177,7 @@
 > A: It stores transaction details until the fraud detection service can process them, even if the service is down.
 
 
-## ASSESMENT
+**ASSESSMENT:**
 
 
 > Q: What does multi-tenancy refer to in the context of Amazon EC2?
@@ -253,7 +252,7 @@
 
 ---
 
-# QUIZ Module 3 - Exploring Compute Service
+## QUIZ Module 3 - Exploring Compute Service
 
 
 > Configure operating system, security patches, and network settings - UNMANAGED
@@ -316,7 +315,7 @@
 > A: AWS Outposts
 
 
-## ASSESMENT
+**ASSESSMENT:**
 
 
 > Q: A developer is launching a new microservice and wants to focus only on writing and deploying code. They do not want to manage servers, handle scaling, or worry about infrastructure availability.
@@ -366,7 +365,7 @@
 
 ---
 
-# QUIZ Module 4 - Going Global
+## QUIZ Module 4 - Going Global
 
 
 > Q: A cloud engineer for a government agency is tasked with selecting an AWS Region to deploy the agency's resources.
@@ -394,7 +393,7 @@
 > _CloudFormation is designed to handle complex infrastructure setups. It defines infrastructure as code to help make sure that deployments are consistent across different environments such as development, testing, and production._
 
 
-## ASSESMENT
+**ASSESSMENT:**
 
 
 > Q: Which answer BEST describes the purpose and benefits of AWS edge locations?
@@ -436,7 +435,7 @@
 
 ---
 
-# QUIZ Module 5 - Networking
+## QUIZ Module 5 - Networking
 
 > Q: What are the uses of a subnet in an Amazon VPC? (Select THREE.)
 >
@@ -500,7 +499,7 @@
 
 ---
 
-## ASSESSMENT
+ASSESSMENT
 
 
 > Q: What is the primary function of a domain name service (DNS)?
@@ -585,7 +584,7 @@
 
 ---
 
-# QUIZ Module 6 - Storage
+## QUIZ Module 6 - Storage
 
 > Q: A developer is building an application that processes large amounts of data and requires high I/O performance. After processing the data for an operation, the results are displayed to the user and do not need to be retained long-term. Unfortunately, the application's current storage solution is experiencing performance bottlenecks during peak processing times.
 >
@@ -697,7 +696,7 @@
 
 ---
 
-## ASSESSMENT
+ASSESSMENT
 
 > Q: What is the primary function of Amazon S3 storage classes?
 >
@@ -826,7 +825,7 @@
 ---
 
 
-# QUIZ Module 7 - Databases
+## QUIZ Module 7 - Databases
 
 > Q: AnyCompany Logistics is growing and expanding their online platform. The development team must choose between two database options. They can host their own database on an Amazon EC2 instance or use AWS's fully managed database service. The company wants to reduce IT maintenance tasks so their staff can focus more on development work.
 >
@@ -874,7 +873,7 @@
 >
 > A: Low-latency queries on highly connected data
 
-## ASSESSMENT
+ASSESSMENT
 
 > Q: What is a practical use case for Amazon DocumentDB (with MongoDB compatibility)?
 >
@@ -931,7 +930,7 @@
 
 ---
 
-# QUIZ Module 8 - AI/ML and Data Analytics
+## QUIZ Module 8 - AI/ML and Data Analytics
 
 > Q: Machine learning (ML) is a type of AI for training machines to perform complex tasks without explicit instructions. This training process involves finding patterns in vast amounts of historical data.
 >
@@ -1026,7 +1025,7 @@
 >
 > A: Amazon QuickSight / Amazon OpenSearch
 
-## ASSESSMENT
+ASSESSMENT
 
 > Q: The extract, transform, load (ETL) process is often used to provide clean and accessible data in a format that is usable by analytics tools and AI algorithms.
 >
@@ -1088,7 +1087,7 @@
 
 ---
 
-# QUIZ Module 9 - Security
+## QUIZ Module 9 - Security
 
 > Q: After logging in to their online banking profile with their username and password, a customer attempts to transfer $10,000 from their savings to their checking account. The system checks if the customer has sufficient privileges to make transfers of this amount before proceeding.
 >
@@ -1166,7 +1165,7 @@
 >
 > A: AWS Security Hub
 
-## ASSESSMENT
+ASSESSMENT
 
 > Q: With AWS Identity and Access Management (IAM) all actions are denied by default. When granting permissions, access should be provided only on a need-to-have basis.
 >
@@ -1229,7 +1228,7 @@
 
 ---
 
-# QUIZ Module 10 - Monitoring, Compliance, and the Governance in the AWS Cloud
+## QUIZ Module 10 - Monitoring, Compliance, and the Governance in the AWS Cloud
 
 > Q: An ecommerce company is hosting their customer application on multiple Amazon EC2 instances. The application experiences fluctuating traffic and occasional performance issues that are impacting the customer experience.
 >
@@ -1288,7 +1287,7 @@
 >
 > A: AWS Trusted Advisor
 
-## ASSESSMENT
+ASSESSMENT
 
 > Q: A financial company is looking for a solution to govern a curated set of AWS resources for their employees. When the employees need to select and start up a new AWS resource, they want to provide a self-service way to create, share, and deploy the AWS resources.
 >
@@ -1373,7 +1372,7 @@
 
 ---
 
-# QUIZ Module 11 - Pricing and Support
+## QUIZ Module 11 - Pricing and Support
 
 > Q: You work as a cloud engineer for a health care company. The chief technology officer wants to store patient records in the cloud. They ask you about the driving factors of cost.
 >
@@ -1409,7 +1408,7 @@
 
 ---
 
-## ASSESSMENT
+ASSESSMENT
 
 > Q: Which option BEST describes a key benefit of being an AWS Partner?
 >
@@ -1493,7 +1492,7 @@
 
 ---
 
-# QUIZ Module 12 - Migrating to the AWS Cloud
+## QUIZ Module 12 - Migrating to the AWS Cloud
 
 
 > Q: Which perspective of the AWS Cloud Adoption Framework (AWS CAF) includes principles and patterns for implementing new solutions in the cloud and migrating on-premises workloads to the new platform in the cloud? It uses a variety of architectural models to understand and communicate the structure of IT systems.
@@ -1536,7 +1535,7 @@
 >
 > A: AWS DataSync
 
-## ASSESSMENT
+ASSESSMENT
 
 > Q: What are the seven migration strategies that are commonly used when customers migrate to the AWS Cloud?
 >
@@ -1590,7 +1589,7 @@
 
 ---
 
-# QUIZ Module 13 - Well architected Solutions
+## QUIZ Module 13 - Well architected Solutions
 
 > Q: A development team for a small marketing company needs a debugging and performance analysis tool to visualize their online application’s behavior. The application is hosted on AWS.
 >
@@ -1638,7 +1637,7 @@
 
 ---
 
-## ASSESSMENT
+ASSESSMENT
 
 > Q: The owner of a large hardware company wants to automate and optimize the company’s marketing emails to enhance customer engagement.
 >
