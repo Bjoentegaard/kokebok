@@ -1,13 +1,34 @@
-# QUIZ Module 1 - Introduction to the Cloud
+# Module 1 - Introduction to the cloud
+- `Cloud Computing` - On-demand delivery of IT resources over the internet with a Pay-as-you-go pricing
+- `Cloud-based deployment:` Resources and applications are hosted entirely in the cloud and accessed over the internet.
+- `On-premises deployment:` Resources and infrastructure are hosted and managed locally within the organization's data center.
+- `Hybrid deployment`: A combination of on-premises and cloud environments, offering balance between control and scalability.
+- `Six key benefits of cloud computing`
+    - Trade fixed expense for variable expense
+    - Benefit from massive economies of scale
+    - Stop guessing capacity
+    - Increase speed and agility
+    - Stop spending money to run and maintain data centers
+- `AWS Regions` - Physical locations around the world that contain groups (AZ) of data centers (Min 3)
+- `Availability Zones (AZ)` - Consists of one or more data centers with redundant power, networking, and connectivity
+- `Customer responsibilites` - Security IN the cloud (applications, data, access control)
+- `Shared responsibilites` - Varies by service
+- `AWS Responsibilities` - Security OF the cloud (hardware, infrastructure)
+
+### Recap
+
+In this section of the training, you learned fundamental concepts of cloud computing. You explored the definition and benefits of the cloud, and you were introduced to AWS Global Infrastructure. You also explored the AWS Shared Responsibility Model to clarify the division of responsibilities between AWS and customers.
+
+## QUIZ Module 1 - Introduction to the Cloud
 
 
 > Q: Which scenario BEST describes how the client-server model works in coffee-shop analogy?
-> 
+>
 > A: The customer goes to the barista and places an order for a coffee. The barista prepares the coffee and hands it back to the customer. This describes how the client places the request, and the server responds.
 ---
 
 > Q: Which deployment model balances compliance (on-premises) and scalability (cloud)?
-> 
+>
 > A: Hybrid deployment
 
 ---
@@ -38,8 +59,8 @@
 
 > Q: A global web application needs to ensure performance and reliability by using AWS infrastructure. What are the key advantages of AWS infrastructure to meet these needs?
 >
-> A: 
->   - High availability 
+> A:
+>   - High availability
 >   - Fault tolerance.
 
 ---
