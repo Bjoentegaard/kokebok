@@ -1,4 +1,4 @@
-# Module 1 - Introduction to the cloud
+## Module 1 - Introduction to the cloud
 - `Cloud Computing` - On-demand delivery of IT resources over the internet with a Pay-as-you-go pricing
 - `Cloud-based deployment:` Resources and applications are hosted entirely in the cloud and accessed over the internet.
 - `On-premises deployment:` Resources and infrastructure are hosted and managed locally within the organization's data center.
@@ -15,12 +15,13 @@
 - `Shared responsibilites` - Varies by service
 - `AWS Responsibilities` - Security OF the cloud (hardware, infrastructure)
 
-## Recap
+**RECAP:**
 
 In this section of the training, you learned fundamental concepts of cloud computing. You explored the definition and benefits of the cloud, and you were introduced to AWS Global Infrastructure. You also explored the AWS Shared Responsibility Model to clarify the division of responsibilities between AWS and customers.
 
+---
 
-# Module 2 - Compute in the cloud
+## Module 2 - Compute in the cloud
 - `Compute in the cloud` - Compute in the cloud means creating virtual machines with a cloud provider to run applications and tasks over the internet
 - `Elastic Compute Cloud (EC2)` - Virtual Server/Machine in the AWS Cloud that provides on-demand, scalable computing capacity
 - `EC2 Instances types`
@@ -77,11 +78,13 @@ In this section of the training, you learned fundamental concepts of cloud compu
 - `Amazon Simple Notification Service (Amazon SNS)` - A publish-subscribe service that publishers use to send messages to subscribers through SNS topics.
 - `SNS topic` - A channel for messages to be delivered
 
-## Recap
+**RECAP:**
 
 In these lessons about compute, you learned how Amazon EC2 and cloud resources help scale applications. You gained knowledge of EC2 instance types, pricing options, and how to choose the best instance types for your unique business needs. You also became familiar with using AWS tools and services like Elastic Load Balancing, Amazon EC2 Auto Scaling, Amazon SQS, and Amazon SNS to manage traffic and communication.
 
-# Module 3 - Exploring Compute Service
+---
+
+## Module 3 - Exploring Compute Service
 - `Unmanaged services` - (EX: EC2) AWS takes care of the underlying physical infrastructure, but you're responsible for setting up, securing, and maintaining the operating system, network configurations, and applications on your instances.
 - `Managed services` - Managed services, on the other hand, reduce the amount of infrastructure you need to manage.
 - `Fully-managed services` - like serverless ones—take abstraction even further, eliminating the need to provision or manage any servers at all.
@@ -122,12 +125,13 @@ In these lessons about compute, you learned how Amazon EC2 and cloud resources h
     - It provides a consistent experience between on premises and the AWS Cloud, offering compute, storage, and networking components.
     - _Good for_: Low-latency applications, data processing in remote locations, migrating and modernizing legacy applications, and meeting regulatory compliance or data residency requirements
 
-## Recap
+**RECAP:**
+
 This module gave you a practical understanding of AWS compute services, so you can choose the right tools for your applications. You learned when to use fully managed options like Lambda or Fargate, and when full control with Amazon EC2 made sense. You explored how containers solve deployment consistency issues and how AWS services, like Amazon ECS and Amazon EKS, simplify managing and scaling containerized applications. You also discovered services like Elastic Beanstalk, AWS Batch, Lightsail, and Outposts, and how each supported specific use cases, from basic web hosting to large-scale batch processing or hybrid cloud environments.
 
 ---
 
-# Module 4 - Going Global
+## Module 4 - Going Global
 - `AWS edge locations` - Edge locations cache items like images, videos, and other resources, so that users can access the content they need with lower latency.
     - Edge locations offer multiple services to run closer to end users, including AWS networking services like Amazon CloudFront
 - `CloudFormation` - A service that lets you define and provision AWS infrastructure as code using templates.
@@ -150,12 +154,13 @@ This module gave you a practical understanding of AWS compute services, so you c
     - Availability Zone - Are distinct locations within a Region, each designed as an independent zone with its own power, networking, and connectivity.
     - Edge Locations - are strategically placed sites around the world that cache content to deliver data, video, and applications with lower latency and higher transfer speeds.
 
-## Recap
+**RECAP:**
+
 In this section of the training, you learned more about the AWS Global Infrastructure. You learned about choosing a Region, the value of edge locations, and how to use services such as CloudFormation to streamline and automate deployment.
 
 ---
 
-# Module 5 - Networking
+## Module 5 - Networking
 - `Networking` - The term networking refers to interconnected devices that can exchange data and resources.
 - `Amazon Virutal Private Cloud (Amazon VPC)` - Lets you provision a logically isolated section of the AWS Cloud where you can launch AWS resources in a virtual network that you define.
 - `Subnet` - Is a section of a VPC in which you can group resources based on security or operational needs.
@@ -219,14 +224,15 @@ In this section of the training, you learned more about the AWS Global Infrastru
 - `Amazon CloudFront` - CloudFront is a CDN service that delivers your content with low latency and high speeds.
 - `AWS Global Accelerator` - Global Accelerator is a service that uses the AWS global network to improve application availability, performance, and security.
 
-## Recap
+**RECAP:**
+
 In this networking module, you identified core networking components and how they connect in the AWS Cloud. We covered the basics of a VPC, the way that you isolate your workload in AWS, gateways, network ACLs, and security groups. You also reviewed ways to connect to AWS through a VPN and Direct Connect, secure connections that are either encrypted over the public internet or exclusive connections used by you and you alone.
 
 You also learned about AWS edge locations, Route 53 for DNS, and CloudFront to cache content closer to consumers.
 
 ---
 
-# Module 6: Storage
+## Module 6: Storage
 - `Block storage` - Provides persistent, low-latency block-level storage volumes that attach to EC2 instances like physical hard drives.
     - `Amazon EC2 instance store`- An unmanaged non-persistent, high-performance block storage directly attached to EC2 instances for temporary data.
         - Is best for temporary memory-based storage needs like buffers, caches, and scratch data. It is not recommended for applications that require data retention.
@@ -342,14 +348,15 @@ You also learned about AWS edge locations, Route 53 for DNS, and CloudFront to c
         - Financial services continuity
         - Manufacturing operations recovery
 
-### Recap
+**RECAP:** 
+
 In this module, you learned about the diverse storage options available in AWS, starting with block storage services like Amazon EC2 Instance Store and Amazon EBS. You learned how Amazon EBS provides persistent block storage volumes for EC2 instances, while EC2 instance store offers temporary block-level storage. You learned how to use EBS snapshots and AWS Data Lifecycle Manager for automated backup management and data protection.
 
 You then examined Amazon S3, a highly scalable object storage service that serves as a foundation for many cloud storage needs. You delved into file storage solutions, including Amazon Elastic File System (Amazon EFS) for Linux-based workloads and Amazon FSx for Windows, Lustre, OpenZFS, and NetAPP ONTAP file systems. Finally, you learned about AWS Storage Gateway, which bridges on-premises environments with AWS storage services to enable hybrid cloud storage architectures.
 
 ---
 
-# Module 7: Databases
+## Module 7: Databases
 - `Relational Databases` - store data in a way that relates it to other pieces of data, and they use structured query language, or SQL, to manage and query data.
 - `Amazon Relational Database Service (Amazons RDS)` - Managed relational database service that handles routine database tasks such as backups, patching, and hardware provisioning.
     - Supports multiple database instance class types that optimize for memory, performance, or input/output (I/O).
@@ -412,7 +419,8 @@ You then examined Amazon S3, a highly scalable object storage service that serve
         - Purpose-built for complex relationships - It supports both property graph and resource description framework, or RDF, models making it ideal for relationship mapping and pattern matching applications.
         - High performance and scalability - Delivers consistent performance at scale, processing billions of relationships in milliseconds. It automatically grows storage up to 64 TB based on your application needs.
 
-### Recap
+**RECAP:**
+
 In this module, we explored the managed relational database capabilities of Amazon RDS and Amazon Aurora. You learned how AWS DMS facilitates seamless database migrations, and DynamoDB provides insights into NoSQL database solutions for scalable applications.
 
 We covered the in-memory caching capabilities of ElastiCache and the MongoDB-compatible document database features of Amazon DocumentDB. We examined the comprehensive data protection strategy across AWS services offered by AWS Backup. And finally, we concluded with the powerful graph database capabilities of Neptune for complex relationship queries.
@@ -420,7 +428,7 @@ We covered the in-memory caching capabilities of ElastiCache and the MongoDB-com
 ---
 
 
-# Module 8 - AI/ML and Data Analytics
+## Module 8 - AI/ML and Data Analytics
 - `Artificial Intelligence (AI)` - A broad field focused on the development of intelligent computer systems capable of performing humanlike tasks.
 - `Machine learning (ML)` - is a type of AI for training machines to perform complex tasks without explicit instructions.
     - Machine learning training finds the patterns hidden in vast amounts of historical data to produce an ML model.
@@ -512,12 +520,13 @@ We covered the in-memory caching capabilities of ElastiCache and the MongoDB-com
         - `Amazon OpenSearch Service` - you can search for relevant content through precise keyword matching or natural language queries.
             - Unified dashboards provide real-time data visualization as you analyze and monitor logs, traces, and metrics for various applications.
 
-## Recap
+**RECAP:**
+
 AI/ML and data analytics are two fields that use high-quality data to analyze past events and innovate for the future. In the previous lessons, you learned how AWS AI/ML solutions help to predict future trends and automate processes. And you learned how AWS solutions can be used to analyze historical trends and develop insights from data.
 
 ---
 
-# Module 9 - Security
+## Module 9 - Security
 - `Authentication` - Verifying the identity of a user or entity through credentials.
     - Is the process of verifying the identity of a user or entity through credentials like a username and password combination.
     - Use case: An employee logs in to an employee portal.
@@ -573,12 +582,13 @@ AI/ML and data analytics are two fields that use high-quality data to analyze pa
     - `Amazon Detective` - After a threat has been detected, you can use Amazon Detective to further investigate the root cause. Detective helps you analyze threats with interactive visualizations contained in a unified AWS Management Console view.
     - `Amazon Security Hub` - Brings multiple security services together into a single place and format. With this service, you can quickly see your security and compliance state in one comprehensive view.
 
-### Recap
+**RECAP:**
+
 Building and maintaining a secure environment in the cloud is an important responsibility. AWS shares this responsibility with its customers. In the previous lessons, you learned about important security concepts, mechanisms, and services that help protect your cloud resources.
 
 ---
 
-# Module 10 - Monitoring, Compliance and Governance in the AWS Cloud
+## Module 10 - Monitoring, Compliance and Governance in the AWS Cloud
 - `Monitoring your resources in the AWS Cloud`
     1. Secure - Protect data, systems, and infrastructure from unauthorized access, use, disclosure, disruption, modification, or destruction
     2. Monitor - Continuously observe and analyze system activity, network traffic, and security events to detect potential threats or anomalies
@@ -657,11 +667,12 @@ Building and maintaining a secure environment in the cloud is an important respo
     - Benefits: IAM Access Analyzer provides benefits like refining permissions, validating IAM policies, helping you meet your least privilege goals, and automating IAM policy reviews.
     - Use cases: It can be used to set fine-grained permissions, verify who can access what, remediate unused access, and refine and remove broad access.
 
-## Recap
+**RECAP:**
+
 In this module, you learned the progression of securing, monitoring, auditing, compliance, and governance in the AWS Cloud. You identified services that aid in monitoring with metrics, alarms, and dashboards. You also learned about services for auditing, such as CloudTrail, and compliance, such as AWS Artifact. You reviewed several other governance and compliance services and identified the role of AWS Trusted Advisor in continuously evaluating for cost, security, performance, and more.
 
 
-# Module 11 - Pricing and Support
+## Module 11 - Pricing and Support
 
 - `Pay as you go` - you can adapt to changing business needs and reduce the risk of overprovisioning or missing
   capacity.
@@ -734,12 +745,13 @@ In this module, you learned the progression of securing, monitoring, auditing, c
         - AWS Partner events: AWS Partner events include webinars, virtual workshops, and in-person learning opportunities.
         - AWS Partner Training and Certification: Take advantage of unique, partner-centered offerings from AWS Training and Certification.
 
-### Recap
+**RECAP:**
+
 In the last few lessons, you learned about AWS pricing concepts and AWS support options. You covered fundamental pricing concepts and services. You also learned the difference between AWS Support Plans and other technical assistance resources. Finally, you applied these concepts to a real-world application by thinking about how to optimize for cost in the AWS Cloud.
 
 ---
 
-# Module 12 - Migrating to the AWS Cloud
+## Module 12 - Migrating to the AWS Cloud
 - `Three phases of the migration process`
     - Assess - you build the business case for the migration and assess your readiness.
         - Pre-migration Assessment tools: `Migration Evaluator`
@@ -836,13 +848,14 @@ In the last few lessons, you learned about AWS pricing concepts and AWS support 
         - Benefits: The benefits include delivering better compute performance and larger storage capacity with gigabytes of data per second for data migration workloads with offline requirements.
         - Use cases: You can use Snowball Edge devices for data migration when offline migration is required. They can also be used for edge computing when a secure, rugged device is needed.
 
-### Recap
+**RECAP:**
+
 In this migration module, you identified the AWS Cloud Adoption Framework (AWS CAF), the seven migration strategies, and migration services to migrate applications, databases, and data.
 
 
 ---
 
-# Module 13 - Well-Architected Solutions
+## Module 13 - Well-Architected Solutions
 - Development services - help developers automate CI/CD pipelines, monitor and debug applications, build GraphQL APIs, and deploy web and mobile applications on AWS.
     - `AWS CodeBuild` - fully managed continuous integration service that compiles source code, runs tests, and produces software packages for deployment. It automatically scales to meet demand, and you only pay for the build time that you use.
     - `AWS CodePipeline` - Fully managed CI/CD service that automates the build, test, and deploy phases of your release process.
@@ -876,5 +889,6 @@ In this migration module, you identified the AWS Cloud Adoption Framework (AWS C
     - Cost Optimization - Savings Plans, AWS Budgets, AWS Cost Explorer
     - Sustainability - AWS Cost & Usage Report
 
-### Recap
+**RECAP:**
+
 In this module, you explored AWS purpose-built services for development, business, and customer support. You examined the AWS Well-Architected Framework and learned about its six pillars: Operational Excellence, Security, Reliability, Performance Efficiency, Cost Optimization, and Sustainability. You also discovered how the AWS Well-Architected Tool helps assess and enhance workloads, so you can align with best practices. Finally, you learned about serverless architectures, highlighting how services like API Gateway, Lambda, and DynamoDB provide scalable, efficient solutions with minimal infrastructure.
