@@ -1,81 +1,95 @@
-v02.00.02
+v02.00.03
 
 ## AWS Cloud for Businesses
 
-There are three key aspects you want to remember as you consider migrating to the cloud
+When a business considers moving to the cloud, focus on these three areas:
 
-- Know how AWS Cloud can free up staff to focus on innovation
-- Understand how the talented staff´s job roles change if they migrate to AWS Cloud
-- Learn hos specific high-level job roles in the on-premises IT department will translate to the AWS Cloud
+- How AWS can free staff from infrastructure-heavy work so they can focus on innovation
+- How existing IT roles evolve in a cloud operating model
+- How common on-premises roles map to cloud roles
 
-AWS Cloud environment:
+### AWS cloud environment: key benefits
 
 - `Speed`
-  - Experiment with applications
-  - New business models at lower cost and greater speed
+  - Teams can experiment faster
+  - New products and business models can be launched at lower cost
 - `Scale`
-  - Almost instantaneously
-  - Broader set of customer segments, geographies, and channels
+  - Capacity can be increased almost instantly
+  - Businesses can serve more customers across regions and channels
 - `Innovation`
-  - Shared responsibility model
-  - Innovate with technologies such as advanced analytics, the Internet of Things (IoT), and automation at scale
+  - Managed services reduce undifferentiated heavy lifting
+  - Teams can build with analytics, IoT, AI/ML, and automation at scale
 - `Productivity`
-  - Infrastructure
-  - Automate compliance
+  - Infrastructure tasks become automated and repeatable
+  - Compliance and operations can be standardized through tooling
 
 ## On-Premises Job Roles
 
-Info about different on-premises job roles...
+Traditional IT teams often include roles such as:
 
+- Solutions Architect
+- System Administrator
+- Network Administrator
+- Security Administrator
+- Database Administrator
+- Application Operations/Development Administrator
+
+These responsibilities do not disappear in AWS, but they shift toward automation, service integration, and governance.
 
 ## Shared Responsibility Model
 
-> AWS is responsible for security _of_ the cloud and customer is responsible for security _in_ the cloud
+> AWS is responsible for security _of_ the cloud, and the customer is responsible for security _in_ the cloud.
 
+In practice:
+
+- AWS secures the physical infrastructure, networking, and managed service foundation
+- Customers secure identities, workloads, configurations, data, and access policies
 
 ## Job Roles in the Cloud
-    
-- Cloud Architect
-  - Responsible for delivering an overall cloud strategy
-  - Supervises deployment in the cloud environment and application architecture for all aspects of the cloud
-  - Subject-matter expert
-  - Top competencies:  
-    - Understands how services are connected and the integration of services
-    - Understands Amazon CloudWatch and logging
-    - Understands AWS Identity and Access Management (IAM) and security involved
-- System Administrator
-  - Responsible for the overall performance of cloud systems.
-  - Manages configs
-  - Completes detailed tasks
-  - Assists with setting up and accessing database servers in the cloud
-  - Maintains data by deploying, configures, and monitors
-  - Adaptable and proficient with configuration management, requirements gathering, deployment planning, and completing details hands-on tasks
-  - Top competencies:
-    - Proficient with hands-on tasks and detailed confirguration changes
-    - Understands configuration management
-    - Proficient with requirement gathering and translating to deployments
-- Security Administrator
-  - The security in the AWS Cloud
-  - Responsible for the overall integrity, confidentialitu, and protection of data and resources in the cloud
-  - Top competencies:
-    - Defines security requirements for enterprise-level businesses based on their security and regulatory requirements
-    - Understands security rules and requirements
-    - Communicates security rules down to engineers and up to decision makers to understand and address security risk
-    - Resourceful because it is not possible to memorize all regulatory requirements
-    - Researches and is resourcful with contacts to determine an answer to address security
-- DevOps Administrator
-  - Optimizes the use of the AWS Cloud.
-  - Creates and maintains processes so that teams and developers can follow the model of small rapid releases.
-  - Top competencies:
-    - Applies programming scripting language with proficiency
-    - Understands and applies QA and testing
-    - Understanding operations and manages developers
-    - Orchestrates the many tools and stages in the pipeline
 
-## Map On-Premises Job Roles to Job Roles in the Cloud
+### Cloud Architect
+
+- Owns the overall cloud architecture and strategy
+- Guides platform design, service selection, and workload patterns
+- Ensures solutions align with business, cost, performance, and security requirements
+- Core competencies:
+  - Service integration and architecture patterns
+  - Observability using Amazon CloudWatch and centralized logging
+  - IAM design and security-by-design principles
+
+### System Administrator (Cloud Operations / SysOps)
+
+- Maintains day-to-day reliability and performance of cloud environments
+- Implements and manages configuration, deployment, and operational tasks
+- Supports provisioning and operation of compute, storage, and database services
+- Core competencies:
+  - Hands-on operations and detailed configuration management
+  - Monitoring, incident response, and operational troubleshooting
+  - Translating requirements into reliable deployments
+
+### Security Administrator
+
+- Owns security controls for cloud workloads and data
+- Protects confidentiality, integrity, and availability (CIA) across environments
+- Defines and enforces policy based on organizational and regulatory needs
+- Core competencies:
+  - Security and compliance requirement definition
+  - Risk communication to both engineers and business stakeholders
+  - Continuous research and adaptation to evolving regulations and threats
+
+### DevOps Administrator
+
+- Improves delivery speed and platform reliability through automation
+- Builds and maintains CI/CD workflows for frequent, low-risk releases
+- Connects development, testing, and operations practices
+- Core competencies:
+  - Scripting/programming for automation
+  - QA and test integration in delivery pipelines
+  - Toolchain orchestration across build, test, release, and operations
+
+## Map On-Premises Roles to Cloud Roles
 
 - IT Solutions Architect → AWS Cloud Architect
-- System, Network, and Desktop Administrators → AWS System Operations Professional and AWS Security Administrators
-  - On premises System Administrator → AWS System Operations (SysOps)
-  - Network or Security Administrator → AWS Security Administrator
-- Database admins, Application Development admins → AWS DevOps Administrators
+- On-premises System Administrator → AWS SysOps / Cloud Operations
+- On-premises Network or Security Administrator → AWS Security Administrator
+- On-premises Database/Admin + Application Operations roles → AWS DevOps Administrator (often shared with platform engineering)
